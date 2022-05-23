@@ -1,0 +1,22 @@
+{
+  "name": "lifewatermedia/disclaimers",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Batur Kacamak",
+      "homepage": "https://batur.info/"
+    },
+    {
+      "name": "Sikander Maan",
+      "homepage": "https://fullstackmonks.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LWM\\Disc\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.6.0"
+  }
+}
